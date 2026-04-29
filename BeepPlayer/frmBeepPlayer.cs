@@ -34,6 +34,7 @@ namespace BeepPlayer
         }
         private void InitializeButton()
         {
+            btn1.Click += btn1_Click;
             // 讓btn1~btn8共用同一個事件處理函式
             btn2.Click += btn1_Click;
             btn3.Click += btn1_Click;
