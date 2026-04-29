@@ -29,13 +29,13 @@ namespace BeepPlayer
             InitializeComponent();
             InitializeButton();
             // 設定縮放大小上限
-            this.MinimumSize = new System.Drawing.Size(320, 100);       
-            this.MaximumSize = new System.Drawing.Size(1200, 900);
+            this.MinimumSize = new System.Drawing.Size(380, 100);       
+            this.MaximumSize = new System.Drawing.Size(1000, 500);
         }
         private void InitializeButton()
         {
-            btn1.Click += btn1_Click;
             // 讓btn1~btn8共用同一個事件處理函式
+            btn1.Click += btn1_Click;
             btn2.Click += btn1_Click;
             btn3.Click += btn1_Click;
             btn4.Click += btn1_Click;
